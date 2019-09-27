@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Movielens Recommendation System</title>
+<link rel="stylesheet" href="{{ url_for('static', filename='css/home.css') }}">
+</head>
+<body>
+
+<h1>Movie Recommendations</h1>
+<p> Please input your User ID:</p>
+
+<form action="/result" method="POST">
+
+    <label>User ID</label>
+    <input type="text" name="User">
+    <input type="submit" value="Submit">
+
+</form>
+
+</body>
+</html>
