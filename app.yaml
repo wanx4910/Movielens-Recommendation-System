@@ -1,4 +1,4 @@
-entrypoint: "gunicorn -b :$PORT main:app"
+entrypoint: "gunicorn -b :$PORT Movielens_recommendation:app"
 env: flex
 runtime: python
 runtime_config: 
